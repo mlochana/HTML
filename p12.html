@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>formatting tags</title>
+    </head>
+    <body>
+        <center>
+            <h1>html formatting tags</h1>
+        </center>
+        <hr>
+
+        <h2>monospaced,code,kbd and pre tag</h2>
+        <p>displays text in teletype format</p>
+        <hr>
+
+        <h3>monospaced tag</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat tenetur tempore, perspiciatis dolores culpa voluptatem, deserunt facilis soluta cupiditate dolore distinctio accusamus debitis! A, saepe accusantium quam officiis consectetur rem. <tt>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi alias iure nisi tempora facilis laboriosam nesciunt aliquid est praesentium consectetur deleniti mollitia qui quisquam molestias cum atque, tempore fuga quae.</tt></p>
+        <hr>
+        
+        <h3>code tag</h3>
+        <p>used to write other language code</p>
+
+        <code>
+            package com.string;
+
+            public class Str4 {
+
+                public static void main(String[] args) {
+                    String str = "Java";
+                    String str1 = new String("Java");
+                    str1 = str1.intern();
+                    
+                    if(str==str1) {
+                        System.out.println("Points to same locations");
+                    }
+                    else {
+                        System.out.println("Points to different locations");
+                    }
+
+                }
+
+            }
+        </code>
+        
+        
+        <p>The pre element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</p>
+        <pre>
+            <code>
+                package com.string;
+    
+                public class Str4 {
+    
+                    public static void main(String[] args) {
+                        String str = "Java";
+                        String str1 = new String("Java");
+                        str1 = str1.intern();
+                        
+                        if(str==str1) {
+                            System.out.println("Points to same locations");
+                        }
+                        else {
+                            System.out.println("Points to different locations");
+                        }
+    
+                    }
+    
+                }
+            </code>
+        </pre>
+        <hr>
+
+        <h3>kbd tag</h3>
+        <p>is a keyboard tag</p>
+
+        <p>ctrl + x</p>
+        <p>ctrl + c</p>
+        <p>ctrl + v</p>
+
+        <p><kbd>ctrl</kbd> + <kbd>x</kbd></p>
+        <p><kbd>ctrl</kbd> + <kbd>c</kbd></p>
+        <p><kbd>ctrl</kbd> + <kbd>v</kbd></p>
+    </body>
+</html>
