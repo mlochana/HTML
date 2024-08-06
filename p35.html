@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <center>
+            <h1>html form tag...</h1>
+        </center>
+        <hr>
+
+        <h2>Form Components Form...</h2>
+
+        <form autocomplete="off">
+            <fieldset>
+                <legend>First Name</legend>
+                <label for="firstName">Enter First Name:</label>
+                <input type="text" placeholder="First Name" name="firstName" id="firstName" required minlength="5" maxlength="20" value="ABCDE" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Middle Name</legend>
+                <label for="middleName">Enter Middle Name:</label>
+                <input type="text" placeholder="Middle Name" name="middleName" id="middleName" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Last Name</legend>
+                <label for="lastName">Enter Last Name</label>
+                <input type="text" placeholder="Last Name" name="lastName" id="lastName" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Buttons</legend>
+                <button type="submit">Submit</button>
+                <button type="button">Cancel</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Button</legend>
+                <label for="">Input type is button</label>
+                <input type="button" name="BUTTON" id="BUTTON" placeholder="BUTTON" value="BUTTON">
+            </fieldset>
+
+            <fieldset>
+                <legend>Check Box</legend>
+                <p for="">Input type is checkbox, is used for select more than one options.</p>
+
+                <h3>Languages</h3>
+                <label for="">Kannada</label>
+                <input type="checkbox" value="Kannada" name="Kannada" id="Kannada" checked>
+
+                <label for="">English</label>
+                <input type="checkbox" value="English" name="English" id="English">
+
+                <label for="">Hindi</label>
+                <input type="checkbox" value="Hindi" name="Hindi" id="Hindi">
+            </fieldset>
+
+            <fieldset>
+                <legend>Color</legend>
+                <label for="">Input type is color</label>
+                <input type="color" name="color" id="color">
+            </fieldset>
+
+            <fieldset>
+                <legend>Date</legend>
+                <label for="">Input type is date</label>
+                <input type="date" name="date" id="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>Date Time</legend>
+                <label for="">Input type is datetime</label>
+                <input type="datetime" placeholder="Date and Time" name="datetime" id="datetime">
+            </fieldset>
+
+            <fieldset>
+                <legend>Date Time Local</legend>
+                <label for="">Input type is datetimelocal</label>
+                <input type="datetime-local" name="datetime-local" id="datetime-local">
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <label for="">Input type is email</label>
+                <input type="email" placeholder="Email" name="email" id="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>File</legend>
+                <label for="">Input type is file</label>
+                <input type="file" name="file" id="file">
+            </fieldset>
+
+            <fieldset>
+                <legend>Hidden</legend>
+                <label for="">Input type is hidden</label>
+                <input type="hidden" value="hidden" name="hidden" id="hidden">
+                <!-- hidden takes only static inputs -->
+            </fieldset>
+
+            <fieldset>
+                <legend>Image</legend>
+                <label for="">Input type is image</label>
+                <input type="image" src="assets/images/image1.jpg" height="300" width="500" name="image" id="image">
+            </fieldset>
+
+            <fieldset>
+                <legend>Month</legend>
+                <label for="">Input type is month</label>
+                <input type="month" name="month" id="month">
+            </fieldset>
+
+            <fieldset>
+                <legend>Number</legend>
+                <label for="">Input type is number</label>
+                <input type="number" name="number" id="number">
+            </fieldset>
+
+            <fieldset>
+                <legend>Password</legend>
+                <label for="">Input type is password</label>
+                <input type="password" placeholder="Enter Password" name="password" id="password">
+            </fieldset>
+
+            <fieldset>
+                <legend>Radio</legend>
+                <label for="">Input type is radio, is used for to check true or false.(Can choose only option)</label>
+                <h4>Gender</h4>
+                <label for="">Male</label>
+                <input type="radio" value="Male" id="male" name="gender">
+
+                <label for="">Female</label>
+                <input type="radio" value="Female" id="female" name="gender">
+
+                <label for="">Trans</label>
+                <input type="radio" value="Trans" id="trans" name="gender">
+
+                <!-- Here the name attribute should have the same name, otherwise it takes more than one option -->
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Range</legend>
+                <label for="">Input type is range</label>
+                <input type="range" min="1" max="100" value="50" name="range" id="range">
+            </fieldset>
+
+            <fieldset>
+                <legend>Reset</legend>
+                <label for="">Input type is Reset</label>
+                <input type="reset" value="RESET">
+            </fieldset>
+
+            <fieldset>
+                <legend>Search</legend>
+                <label for="">Input type is search</label>
+                <input type="search" placeholder="Search Here" name="search" id="search">
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <label for="">Input type is submit</label>
+                <input type="submit" value="SUBMIT">
+            </fieldset>
+
+            <fieldset>
+                <legend>Tel</legend>
+                <label for="">Input type is telephone</label>
+                <input type="tel" placeholder="Telephone" name="tel" id="tel">
+            </fieldset>
+
+            <fieldset>
+                <legend>Time</legend>
+                <label for="">Input type is time</label>
+                <input type="time" name="time" id="time">
+            </fieldset>
+
+            <fieldset>
+                <legend>URL</legend>
+                <label for="">Input type is url</label>
+                <input type="url" placeholder="URL" id="url" name="url">
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+                <p>TextArea is used for to write local, permanent address and feedback purpose also.</p>
+                <label for="">Address</label>
+                <textarea placeholder="Address" name="address" id="address" cols="50" rows="10"></textarea> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Option</legend>
+                <p>this is a dropdown and s used to select only one option</p>
+                <label for="">Select Qualification</label>
+                <select name="Qualification" id="Qualification">
+                    <option value="" disabled selected>---Select your qualification---</option>
+                    <option value="">10th</option>
+                    <option value="">PUC</option>
+                    <option value="">Diploma</option>
+                    <option value="">Degree</option>
+                    <option value="">Master Degree</option>
+                    <option value="Master Degree"></option>
+                    <option>Master Degree1</option>
+                    <optgroup>
+                        <option value="">BE in CS</option>
+                        <option value="">BE in IS</option>
+                        <option value="">BE in Civil</option>
+                        <option value="">BE in EC</option>
+                        <option value="">BE in EEE</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="">MS in CS</option>
+                        <option value="">MS in IS</option>
+                        <option value="">MS in CIVIL</option>
+                        <option value="">MS in EC</option>
+                        <option value="">MS in EEE</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
